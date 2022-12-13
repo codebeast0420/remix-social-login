@@ -21,9 +21,9 @@ authenticator.use(new GoogleStrategy(
 
 authenticator.use(new FacebookStrategy(
   {
-    clientID: "YOUR_CLIENT_ID",
-    clientSecret: "YOUR_CLIENT_SECRET",
-    callbackURL: `https://localhost:3333/auth/${SocialsProvider.FACEBOOK}/callback`
+    clientID: "2059041460972964",
+    clientSecret: "d1f2f84f82284dac2bb71ec8cf993200",
+    callbackURL: `https://localhost:3000/auth/${SocialsProvider.FACEBOOK}/callback`
   },
   async ({ profile }) => {
     // here you would find or create a user in your database
